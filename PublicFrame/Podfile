@@ -1,0 +1,21 @@
+
+workspace 'Public_Frame.xcworkspace' #设置workspace
+
+platform :ios, '9.0'
+
+target 'Public_Framework' do
+    project 'Public_Framework/Public_Framework.xcodeproj'
+
+end
+
+
+target 'Public_Util' do
+    project 'Public_Util/Public_Util.xcodeproj'
+
+    pod 'AFNetworking',              '~> 3.1.0'
+    pod 'MBProgressHUD',             '~> 1.0.0'
+    pod 'MJRefresh',                 '~> 3.1.12'
+    pod 'YYModel',                   '~> 1.0.4'
+    pod 'Masonry'
+
+end
