@@ -77,6 +77,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F908881921E8974C00413404 /* Public_Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Public_Tools;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		F98233A620FF22B500A28F60 /* Public_Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,8 +121,8 @@
 		F9C9882520FED8DB001D3749 /* Public_Util */ = {
 			isa = PBXGroup;
 			children = (
+				F908881921E8974C00413404 /* Public_Tools */,
 				F98233A620FF22B500A28F60 /* Public_Category */,
-				F9C9888420FEE25E001D3749 /* Public_Tools */,
 				F9C9886120FEE0A6001D3749 /* Public_VOModel */,
 				F9C9886020FEE06E001D3749 /* Public_RequestManager */,
 				F9C9882620FED8DB001D3749 /* Public_Util.h */,
@@ -141,13 +149,6 @@
 				F9C9888A20FEE28D001D3749 /* Public_ResponseVO.m */,
 			);
 			path = Public_VOModel;
-			sourceTree = "<group>";
-		};
-		F9C9888420FEE25E001D3749 /* Public_Tools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Public_Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
